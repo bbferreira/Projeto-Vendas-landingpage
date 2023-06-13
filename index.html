@@ -1,80 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ofertas</title>
-    <link rel="stylesheet" href="style.css">
-     <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      margin-top: 10px;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      text-align: center;
-      
-    }
-
-    h1 {
-      color: #333333;
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #666666;
-      margin-bottom: 40px;
-    }
-
-    .cta-button {
-      display: inline-block;
-      background-color: #4CAF50;
-      color: #ffffff;
-      padding: 12px 24px;
-      font-size: 18px;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background-color 0.3s;
-    }
-
-    .cta-button:hover {
-      background-color: #45a049;
-    }
-
-    .hero {
-      background-color: #f5f5f5;
-      padding: 100px;
-      text-align: center;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="">
 </head>
+
 <body>
+
+  <header>
+    <a href="#" class="logo">
+      Convertex.Live
+    </a>
+  </header>
+  <main>
     <section class="hero">
-    <div class="container">
-    <h1>Liberte a sua Criatividade com a sua Própria Landing Page Personalizada!</h1>
-    <p>Aproveite a nossa oferta especial, pelo preço de apenas R$150! Reserve agora e tenha uma experiência incrível!</p>
-  </div>
+      <div class="container">
+        <h1>Descubra o segredo para conquistar clientes e decolar seus negócios. Crie uma Landing Page incrível em
+          minutos
+          com a nossa empresa e deixe sua concorrência de queixo caído!</p>
+      </div>
+      <p><strong> Qual tipo de landing page você gostaria de ter em seu comercio?</strong></p>
+      <div  class="iframe-container">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCGzQoXjGi4lV8x8QXepexO4a8Tv08Ac2F5DBbEcgP4DuSCA/viewform?embedded=true" width="640" height="2573" frameborder="0"    marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
 
-  
-    <p><strong> Qual tipo de landing page você gostaria de ter em seu comercio?</strong></p>
-    <a href="#" class="cta-button" onclick="enviarMensagem()">Saiba Mais</a>
-  </section>
+      <a href="#" class="cta-button" onclick="enviarMensagem()">Saiba Mais</a>
+      <br><br><br>
+      <h2>Crie sua Landing Page Profisssional por apenas R$355,00</h2>
+    </section>
+    <section class="hero">
+      <div>
+      <p><strong>Por que  investir  em uma Landing Page?</strong></p>
+    </div>
+    </section>
 
-  <script>
-    function enviarMensagem() {
-      const phoneNumber = '14997605588';
-      const encodedMessage = encodeURIComponent('Olá! Esta é uma mensagem genérica enviada pelo botão WhatsApp.');
+  </main>
 
-      const linkWhatsapp = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
-      window.open(linkWhatsapp, '_blank');
-    }
-  </script>
+
+  <script src="./script.js"></script>
 </body>
+
 </html>
